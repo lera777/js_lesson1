@@ -42,7 +42,7 @@ console.log(value);
 value = string.substring(4, 9);
 console.log(value);
 
-value = string.slice(0, string.length - 6);
+value = string.slice(0, -6);
 console.log(value);
 
 value = a.toString() + b.toString();
